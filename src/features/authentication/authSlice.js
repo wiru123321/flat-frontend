@@ -46,6 +46,7 @@ export const login = ({ login, password }) => {
       localStorage.setItem("token", token);
       localStorage.setItem("role", role);
       localStorage.setItem("login", login);
+      console.log(token, role);
       if (role === "ADMIN") {
         dispatch(setRedirectAddress("/adminPage#/addUserAcc"));
       } else if (role === "RESIDENT") {

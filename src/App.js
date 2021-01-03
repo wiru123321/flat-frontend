@@ -30,7 +30,7 @@ function App() {
       <Switch>
         <Route exact path="/login" component={LoginPage} />
         <PrivateRoute path="/adminPage" role="ADMIN" component={AdminPage} />
-        <PrivateRoute path="/userPage" role="EMPLOYEE" component={UserPage} />
+        <PrivateRoute path="/userPage" role="RESIDENT" component={UserPage} />
         <Route exact path="*" component={LoginPage} />
       </Switch>
     </Router>
