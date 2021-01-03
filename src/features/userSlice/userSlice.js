@@ -1,7 +1,7 @@
 import { createSlice } from "@reduxjs/toolkit";
 import axios from "axios";
 
-const API_URL = "http://localhost:8080";
+const API_URL = "https://spring-boot-app-flats.herokuapp.com";
 
 const initialState = {
   users: [],

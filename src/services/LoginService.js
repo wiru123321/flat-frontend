@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_URL = "http://localhost:8080/login";
+const API_URL = "https://spring-boot-app-flats.herokuapp.com/login";
 
 export const handleLogin = ({ login, password }) => {
   return axios.post(API_URL, {
