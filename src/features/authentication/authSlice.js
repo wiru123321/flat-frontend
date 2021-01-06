@@ -77,7 +77,7 @@ export const logout = () => {
     localStorage.removeItem("token");
     localStorage.removeItem("role");
     localStorage.removeItem("login");
-    dispatch(setRedirectAddress("/login"));
+    dispatch(setRedirectAddress("/"));
     dispatch(allowRedirect(false));
   };
 };
