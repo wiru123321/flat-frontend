@@ -58,7 +58,7 @@ const AddUserForm = () => {
             alignItems="center"
             style={{ width: "35vw", marginBottom: "3vh", marginTop: "2vh" }}>
             <Grid item xs={12} >
-              <p style={{ fontWeight: 'bold', fontSize: "22px" }}>Wprowadź dane urzytkownika</p>
+              <p style={{ fontWeight: 'bold', fontSize: "22px" }}>Wprowadź dane użytkownika</p>
             </Grid>
           </Grid>
           <Grid container
